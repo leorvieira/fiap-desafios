@@ -1,0 +1,26 @@
+import javax.swing.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		JTextField fator1 = new JTextField();
+		JTextField fator2 = new JTextField();
+		Object[] message = {
+		    "Fator 1:", fator1,
+		    "Fator 2:", fator2,
+		};
+		Object[] options = {
+				"+", "-", "*", "/"
+		};
+		
+		
+
+		int result  = JOptionPane.showOptionDialog(null, "Enter a Number", null,
+                JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE,
+                null, options, null);
+		
+
+	}
+
+}

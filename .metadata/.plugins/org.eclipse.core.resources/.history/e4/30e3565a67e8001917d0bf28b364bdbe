@@ -1,0 +1,15 @@
+import javax.swing.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		JOptionPane calcPane = new JOptionPane("Calculadora");
+		System.out.println(calcPane.showInputDialog("Calculator"));
+	
+		
+		
+		
+	}
+
+}

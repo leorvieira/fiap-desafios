@@ -1,0 +1,32 @@
+import javax.swing.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		JTextField fator1 = new JTextField();
+		JTextField fator2 = new JTextField();
+		Object[] message = {
+		    "Fator 1:", fator1,
+		    "Fator 2:", fator2,
+		};
+		Object[] options = {
+				"+","-","*","/"
+		};
+		
+
+
+		int option = JOptionPane.showConfirmDialog(null, message, "Calculadora", JOptionPane.OK_CANCEL_OPTION);
+		if (option == JOptionPane.OK_OPTION) {
+		    if (fator1.getText().equals("h") && fator2.getText().equals("h")) {
+		        System.out.println("Login successful");
+		    } else {
+		        System.out.println("login failed");
+		    }
+		} else {
+		    System.out.println("Login canceled");
+		}		
+
+	}
+
+}

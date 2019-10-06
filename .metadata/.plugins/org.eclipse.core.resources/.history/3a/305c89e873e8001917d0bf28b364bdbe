@@ -1,0 +1,30 @@
+
+public class Calculadora implements CalculadoraBasica {
+
+	@Override
+	public float somar(float op1, float op2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float diminuir(float op1, float op2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float dividir(float op1, float op2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float multiplicar(float op1, float op2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

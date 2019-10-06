@@ -1,0 +1,20 @@
+import javax.swing.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		JTextField fator1 = new JTextField();
+		JTextField fator2 = new JTextField();
+		JTextField operacao = new JTextField();
+		
+		Object[] message = {"fator 1", fator1 , "fator 2" , fator2, "+,-,*,/", operacao};
+		
+		
+		System.out.println(JOptionPane.showInputDialog(null,  message ));
+	
+		System.out.println("fator 1 = "+fator1);		
+		
+	}
+
+}

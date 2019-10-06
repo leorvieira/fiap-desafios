@@ -1,0 +1,17 @@
+import javax.swing.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Object[] options = {"somar","diminuir","multiplicar","dividir"};
+		
+		
+		System.out.println(JOptionPane.showInputDialog(null,  "Calculadora", options));
+	
+	
+		
+		
+	}
+
+}

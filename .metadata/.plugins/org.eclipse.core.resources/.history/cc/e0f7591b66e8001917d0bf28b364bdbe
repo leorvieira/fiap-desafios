@@ -1,0 +1,24 @@
+import javax.swing.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		JTextField fator1 = new JTextField();
+		JTextField fator2 = new JTextField();
+		Object[] message = {
+		    "Fator 1:", fator1,
+		    "Fator 2:", fator2,
+		};
+		Object[] options = {
+				"+", "-", "*", "/"
+		};
+		
+		
+
+		String result  = JOptionPane.showInputDialog ("Calculadora", options[1]);
+		
+		
+	}
+
+}
